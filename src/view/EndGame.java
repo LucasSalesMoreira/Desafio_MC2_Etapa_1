@@ -21,8 +21,8 @@ public class EndGame extends javax.swing.JFrame {
         lblPlacar.setText(placar);
         Pokemon p[] = t.getPokemons();
         lblName1.setText(p[0].getName());
-        lblName1.setText(p[1].getName());
-        lblName1.setText(p[2].getName());
+        lblName2.setText(p[1].getName());
+        lblName3.setText(p[2].getName());
         lblP1.setIcon(new ImageIcon(p[0].getPath()));
         lblP2.setIcon(new ImageIcon(p[1].getPath()));
         lblP3.setIcon(new ImageIcon(p[2].getPath()));
