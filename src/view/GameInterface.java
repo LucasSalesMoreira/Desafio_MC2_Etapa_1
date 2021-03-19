@@ -366,6 +366,7 @@ public class GameInterface extends javax.swing.JFrame {
                         } else {
                             treinadores[1] = new Treinador(name, Integer.parseInt(years), pokemonSelection.getInstancesArray());
                             new BattleInterface(treinadores).setVisible(true);
+                            dispose();
                         }
                     } catch(NumberFormatException e) {
                         e.printStackTrace();

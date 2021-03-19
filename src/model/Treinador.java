@@ -7,6 +7,7 @@ public class Treinador {
     private String name;
     private int years;
     private Pokemon pokemons[];
+    private int victories = 0;
     
     public Treinador(String name, int years, Pokemon pokemons[]) {
         this.name = name;
@@ -36,5 +37,13 @@ public class Treinador {
 
     public void setPokemons(Pokemon[] pokemons) {
         this.pokemons = pokemons;
+    }
+    
+    public int getVictories() {
+        return victories;
+    }
+
+    public void setVictories(int victories) {
+        this.victories = victories;
     }
 }
